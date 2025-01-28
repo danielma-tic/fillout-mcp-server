@@ -1,5 +1,7 @@
 # Fillout.io MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@danielma-tic/server-fillout)](https://smithery.ai/server/@danielma-tic/server-fillout)
+
 MCP Server for the Fillout.io API, enabling form management, response handling, and analytics.
 
 ## Token Setup
@@ -138,6 +140,14 @@ MCP Server for the Fillout.io API, enabling form management, response handling, 
 ## Setup
 
 ### Usage with Claude Desktop
+
+#### Installing via Smithery
+
+To install Fillout.io MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@danielma-tic/server-fillout):
+
+```bash
+npx -y @smithery/cli install @danielma-tic/server-fillout --client claude
+```
 
 #### Docker Configuration
 ```json
